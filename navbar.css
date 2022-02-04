@@ -1,0 +1,16 @@
+body {
+  background-color: aqua;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.left-side {
+  background-color: cornflowerblue;
+}
+.right-side {
+  background-color: cornsilk;
+}
+.right-side a {
+  background-color: crimson;
+}

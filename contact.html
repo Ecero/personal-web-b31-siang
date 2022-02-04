@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Creating Contact Form</title>
+  </head>
+  <body>
+    <center>
+      <div style="width: 350px; margin-top: 120px">
+        <form action="#" style="text-align: left">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            style="width: 100%; box-sizing: border-box; border-radius: 8px"
+          />
+          <input type="text" value="mentor" readonly />
+          <input type="text" pattern="[ A-Za-z]{3}" />
+          <input type="text" placeholder="input your phone" required />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="password" />
+          <select name="" id="">
+            <option value="let's talk">let's talk</option>
+            <option value="i'm hiring" disabled>i'm hiring</option>
+            <option value=" let's collaboration">let's collaboration</option>
+          </select>
+          <button type="submit">submit</button>
+          <button type="button" onclick="showData">submit</button>
+        </form>
+      </div>
+    </center>
+    <script src="submission.js"></script>
+  </body>
+</html>

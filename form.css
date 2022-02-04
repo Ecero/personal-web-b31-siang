@@ -1,0 +1,14 @@
+#form {
+  width: 25%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pertama {
+  width: 100%;
+}
+.kedua {
+  width: 25%;
+}
