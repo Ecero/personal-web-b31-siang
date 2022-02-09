@@ -108,10 +108,10 @@ function getFullTime() {
   console.log(minutes);
   return `${date} ${month} ${year} ${hours}:${minutes} WIB`;
 }
-Function getDistanceTime(time){
-  const distance = new Date()- new Date()
+function getDistanceTime(time) {
+  const distance = new Date() - new Date();
   const milisecond = 1000;
-  const secondsInMinute =60;
-  const minutesInHour =60;
-  const secondInHour = secondsInMinute * minutesInHour
+  const secondsInMinute = 60;
+  const minutesInHour = 60;
+  const secondInHour = secondsInMinute * minutesInHour;
 }
